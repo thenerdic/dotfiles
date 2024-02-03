@@ -16,6 +16,8 @@ MAUVE='\e[38;2;198;160;246m\]'
 RED='\e[38;2;237;135;150m\]'
 GREEN='\e[38;2;166;218;149m\]'
 
+# TODO: replace color below with variables
+
 #PS1='[\u@\h \W]\$ ' # keep incase I need to revert back to default
 PS1='[\[\e[38;2;198;160;246m\]\u\[\e[0m\]@\[\e[38;2;237;135;150m\]\h\[\e[0m\] \[\e[38;2;145;215;227m\]\W\[\e[0m\]]\[\e[0m\]\n\$\[\e[38;2;202;211;245m\] ' # new main prompt 
 
