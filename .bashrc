@@ -19,7 +19,7 @@ GREEN='\e[38;2;166;218;149m\]'
 # TODO: replace color below with variables
 
 #PS1='[\u@\h \W]\$ ' # keep incase I need to revert back to default
-PS1='[\[\e[38;2;131;192;146m\]\u\[\e[0m\]@\[\e[38;2;214;153;182m\]\h\[\e[0m\] \[\e[38;2;145;215;227m\]\W\[\e[0m\]]\[\e[0m\]\n\$\[\e[38;2;202;211;245m\] ' # new main prompt 
+PS1='[\[\e[38;2;203;166;247m\]\u\[\e[0m\]@\[\e[38;2;243;139;168m\]\h\[\e[0m\] \[\e[38;2;145;215;227m\]\W\[\e[0m\]]\[\e[0m\]\n\$\[\e[38;2;202;211;245m\] ' # new main prompt 
 
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
