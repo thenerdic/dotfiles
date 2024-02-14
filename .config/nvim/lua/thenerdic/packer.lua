@@ -42,4 +42,5 @@ return require('packer').startup(function(use)
         config = function() require("nvim-autopairs").setup {} end
     }
     use "neanias/everforest-nvim"
+    use 'shaunsingh/nord.nvim'
 end)
