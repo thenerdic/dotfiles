@@ -11,6 +11,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias nv='nvim'
 alias tmux='tmux -2'
+alias gs="git status"
+alias gc="git commit"
+alias gps="git push"
 
 MAUVE='\e[38;2;198;160;246m\]'
 RED='\e[38;2;237;135;150m\]'
